@@ -1,3 +1,4 @@
+import socket from "socket.io";
 // Define an asynchronous function named 'setupSocket' that takes a 'server' object as a parameter
 export default async function setupSocket(server) {
   // Create a new socket.io instance using the provided 'server'
